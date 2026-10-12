@@ -1,0 +1,23 @@
+# Environment
+venv/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Spark artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Data, models and logs stay out of Git
+data/raw/*
+data/bronze/*
+data/silver/*
+data/gold/*
+models/*
+logs/*
+!data/**/.gitkeep
+!models/.gitkeep
+!logs/.gitkeep

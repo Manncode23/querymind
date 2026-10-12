@@ -1,0 +1,13 @@
+pandas>=2.0,<3
+numpy>=1.26,<3
+scikit-learn>=1.4
+pyarrow>=14
+matplotlib>=3.8
+psycopg2-binary>=2.9
+SQLAlchemy>=2.0,<3
+python-dotenv>=1.0
+faker>=24
+pyspark>=3.5,<4
+kafka-python>=2.0.2
+jupyter>=1.0
+pytest>=8
